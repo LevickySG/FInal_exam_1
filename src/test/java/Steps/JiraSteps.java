@@ -1,4 +1,5 @@
 package Steps;
+import Hooks.propertyHooks;
 import JiraElements.*;
 import io.qameta.allure.Step;
 import java.time.Duration;

@@ -1,9 +1,10 @@
 package JiraElements;
+import Hooks.propertyHooks;
 import com.codeborne.selenide.SelenideElement;
 import static com.codeborne.selenide.Selenide.*;
 import org.openqa.selenium.By;
 
-public class Tasks extends propertyHooks{
+public class Tasks extends propertyHooks {
     public static SelenideElement TaskSearch = $x("//a[contains(text(), 'Поиск задач')]");
     public static SelenideElement BusyButt = $x("//span[contains(text(),'Бизнес-процесс')]//parent::a");
     public static SelenideElement DoneButt = $x("//span[contains(text(),'Выполнено')]");

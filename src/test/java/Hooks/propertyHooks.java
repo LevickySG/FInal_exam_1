@@ -1,4 +1,4 @@
-package JiraElements;
+package Hooks;
 
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.logevents.SelenideLogger;
@@ -42,7 +42,6 @@ public class propertyHooks {
         TaskVer=jiraprop.getProperty("TaskVer");
         ProjName=jiraprop.getProperty("ProjName");
         TaskStatus=jiraprop.getProperty("TaskStatus");
-        System.out.println(TaskStatus);
     }
 
 }

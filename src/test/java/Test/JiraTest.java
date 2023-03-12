@@ -1,6 +1,6 @@
 package Test;
 
-import JiraElements.propertyHooks;
+import Hooks.propertyHooks;
 import io.qameta.allure.Epic;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
