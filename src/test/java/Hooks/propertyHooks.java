@@ -31,8 +31,8 @@ public class propertyHooks {
 
     @BeforeEach
     public void setJiraprop() throws IOException {
-        jiraprop.load(new FileInputStream("C:\\Users\\Magnus\\IdeaProjects" +
-                "\\FInal_exam_1\\src\\test\\resources\\taskcreate.properties"));
+        String dir = System.getProperty("user.dir");
+        jiraprop.load(new FileInputStream(dir + "/src/test/resources/taskcreate.properties"));
         login =jiraprop.getProperty("login");
         pass=jiraprop.getProperty("pass");
         TaskCheckName=jiraprop.getProperty("TaskCheckName");
